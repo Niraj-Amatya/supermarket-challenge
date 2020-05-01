@@ -44,4 +44,6 @@ function queueTime(customers, n) {
 	// that's the output we need
 	return largestTill.totalTime();
 }
-module.exports = { queueTime };
+// module.exports = { queueTime };
+
+console.log(queueTime([1, 2, 3, 4], 2))
